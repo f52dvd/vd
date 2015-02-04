@@ -1,0 +1,1354 @@
+* {
+	margin:0;
+	padding:0;
+}
+html {
+	background:#FFFFFF;
+}
+body {
+	font:normal 14px/20px Arial, Verdana, Lucida, Helvetica, simsun, sans-serif;
+	color:#313131;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	empty-cells:show;
+	text-align:left;
+}
+th, td {
+	border-collapse:collapse;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+input, select, form img, button {
+	vertical-align:middle;
+}
+img {
+	border:0;
+}
+em {
+	font-weight: normal;
+	font-style: normal;
+}
+button {
+	cursor:pointer;
+}
+.topbar {
+	width:990px;
+	overflow:hidden;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #D40000;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+}
+.topbar .logo {
+	float: left;
+	width: 228px;
+	height: 75px;
+}
+.topbar .topbanner {
+	float: right;
+	width: 760px;
+	height: 90px;
+	overflow: hidden;
+}
+#menu {
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	clear: both;
+	height: 38px;
+	line-height: 35px;
+	color: #FFF;
+}
+#menu li {
+	float: left;
+	padding-right: 14px;
+	padding-left: 13px;
+	background-image: url("l.gif")/*tpa=http://www.poxiao.com/template/default/images/l.gif*/;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+#menu a {
+	color: #FFF;
+}
+.subnavs {
+	background-position: right center;
+	background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	height: 30px;
+	background-position: 0px -40px;
+	line-height: 25px;
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+.search_btn {
+	height: 18px;
+	width: 60px;
+	background-image: url("search_btn.gif")/*tpa=http://www.poxiao.com/template/default/images/search_btn.gif*/;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	line-height: 18px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.subnavs .search{
+	padding-left: 10px;
+	float: left;
+}
+ #subnav{
+	width: 600px;
+	float: right;
+	margin-right: 10px;
+}
+#subnav a{
+	color: #C33;
+	
+	
+
+	text-decoration: underline;
+}
+ #subnav li{
+	float: right;
+
+}
+form{margin:0px;display: inline}
+.channel {
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 12px;
+}
+.channel a{
+	text-decoration: underline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 990px;
+}
+.col3 {
+	width: 220px;
+	float: right;
+	clear: right;
+	background-image: url("sddd.gif")/*tpa=http://www.poxiao.com/template/default/images/sddd.gif*/;
+	background-repeat: repeat-y;
+	background-position: left;
+	padding-left: 10px;
+}
+.col3 h3 {
+	background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	height: 33px;
+	background-position: -480px -112px;
+	font-weight: normal;
+	color: #FFF;
+	font-size: 14px;
+	letter-spacing: 5px;
+	text-align: center;
+	line-height: 33px;
+	padding-bottom: 5px;
+}
+.col3 .content {
+	background-color: #FFF5EB;
+	width: 212px;
+	border: 1px solid #FFC68C;
+}
+.col3 .content ul {
+}
+.col3 .content li a{
+	font-weight: bold;
+	color: #C30;
+	font-size: 13px;
+}
+.col3 .content li {
+	width: 210px;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+}
+.col3 .content .cs {
+	width: 182px;	
+}
+.col3 .content li img {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.cs {
+	text-decoration: none;
+	position:absolute;
+	top:129px;
+	left:11px;
+	width:184px;
+	text-align:right;
+	color:#fff;
+	line-height:20px;
+	height:20px;
+	padding:0 3px;
+	background:url("2.png")/*tpa=http://www.poxiao.com/template/default/images/2.png*/ no-repeat 0 0;
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#00000000, endColorStr=#99000000, 
+gradientType='1');
+	z-index: 6;
+	overflow: hidden;
+}
+.col1 {
+	float: left;
+	width: 500px;
+	border: 1px none #D2D2D2;
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.col1 h2, .coljd h2 {
+	color: #000;
+	font-size: 14px;
+	padding: 5px;
+}
+.col1 .content, .coljd .content {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.col1 .content li a {
+	color: #D40000;
+}
+.col1 .content li:hover {
+	BACKGROUND-COLOR: #fff8eb
+}
+.col1 .content li, .coljd .content li {
+	word-break:break-all;
+	height:24px;
+	overflow:hidden;
+	background-image: url("xddd.gif")/*tpa=http://www.poxiao.com/template/default/images/xddd.gif*/;
+	background-repeat: repeat-x;
+	background-position: 0px 21px;
+	line-height: 22px;
+}
+.col1 .content li .leixing, .coljd .content li .leixing {
+	padding-right: 10px;
+	float: left;
+	color: #666;
+}
+.col1 .content li .leixing a, .coljd .content li .leixing a {
+	color: #666;
+}
+.col1 .content li .date, .coljd .content .date {
+	float: right;
+	padding-left: 10px;
+}
+.col1 .imgcontent {
+	float: left;
+	background-color: #FFFFF4;
+	margin-top: 20px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #D2D2D2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.col1 .imgcontent ul {
+	background-color: #CCC;
+}
+.col1 .imgcontent li {
+	text-align: center;
+	float: left;
+	width: 98px;
+}
+.col1 .imgcontent li a {
+	width: 80px;
+	clear: left;
+	font-size: 13px;
+	height: 125px;
+	overflow: hidden;
+	display: block;
+	color: #333;
+}
+.col1 .imgcontent li img {
+	border: 1px solid #999;
+	padding: 2px;
+	width: 70px;
+}
+.col1 .imgcontent li .jianjie {
+	color: #939393;
+	font-size: 12px;
+	width: 80px;
+	line-height: 12px;
+}
+.gxbg {
+	height: 140px;
+	background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	background-position: -410px -150px;
+	width: 210px;
+	padding-top: 40px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.gxbg ul {
+	font-size: 12px;
+	height: 115px;
+	width: 200px;
+	overflow: auto;
+}
+.gxbg ul li{}
+.gxbg ul li a{
+	text-decoration: underline;
+	color: #FC0;
+}
+.shizhongq {
+	color: #FFF;
+	float: right;
+	margin-right: 5px;
+}
+.shizhongq a{
+	color: #FFF;
+	text-decoration: underline;
+}
+.col2 {
+	float: left;
+	width: 240px;
+	padding-right: 10px;
+	background-image: url("sddd.gif")/*tpa=http://www.poxiao.com/template/default/images/sddd.gif*/;
+	background-repeat: repeat-y;
+	background-position: left;
+	margin-left: 10px;
+}
+.dlxgd {
+}
+.dlxgd .dlx-top a{
+	color: #FFF;
+	text-decoration: none;
+}
+.dlxgd .current{
+	font-weight: bold;
+}
+.dlxgd .dlx-top ul {
+	float: left;
+	padding-left: 10px;
+	color: #FFF;
+	text-decoration: none;
+}
+.dlxgd .dlx-top ul li {
+	float: left;
+	background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	width: 55px;
+	background-repeat: no-repeat;
+	background-position: -775px -70px;
+	text-align: center;
+	line-height: 20px;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	font-size: 12px;
+	cursor: pointer;
+	margin-left: 2px;
+	height: 20px;
+}
+.dlx-content {
+	float: left;
+	padding-left: 10px;
+}
+.dlx-content li{
+	position: relative;
+	text-align: center;
+	padding: 5px;
+	height: 155px;
+	width: 220px;
+}
+.dlx-content li a{
+	font-weight: bold;
+	color: #C30;
+	font-size: 13px;
+}
+.dlx-content li .cs{
+	top: 124px;
+	left: 5px;
+	width: 214px;
+	font-weight: normal;
+}
+.coljd {
+	width: 760px;
+	float: left;
+	clear: both;
+}
+.coljd .content {
+	float: left;
+	width: 440px;
+}
+.jdtj {
+	float: left;
+	width: 290px;
+}
+.jdtj h4{
+	font-size: 12px;	
+}
+.jdtj li a{
+	color: #333;	
+}
+
+.jdtj li{
+	float: left;
+	width: 120px;
+	font-size: 12px;
+	height: 155px;
+	padding-left: 20px;
+	text-align: center;
+}
+.jdtj li a:hover img{
+	background-color: #FFF5EB;
+	border: 1px solid #FFC68C;
+}
+.jdtj li img{
+	padding: 5px;
+	border: 1px solid #CCC;
+}
+.dyList {
+	float: right;
+	clear: right;
+}
+.rank {
+	padding-top: 20px;
+}
+.rank .movlist2 {
+	background-color: #F5F5F5;
+	padding-left: 30px;
+	color: #C30;
+}
+.rank ol {
+}
+.rank li {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	font-size: 13px;
+	line-height: 25px;
+}
+.rank li a {
+	color: #333;
+}
+.rank li span {
+	color: #999;
+	font-size: 12px;
+	font-style: normal;
+	padding-left: 10px;
+}
+.footer {
+	width:990px;
+	overflow:hidden;
+	height: 150px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #D40000;
+	background-color: #F6F6F6;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 10px;
+	clear: both;
+}
+
+/*电影*/
+
+#film {
+	width: 760px;
+	background-image: url("sddd.gif")/*tpa=http://www.poxiao.com/template/default/images/sddd.gif*/;
+	background-repeat: repeat-y;
+	background-position: right;
+	float: left;
+}
+#film #content {
+}
+
+#film .detail_pic {
+	height: 380px;
+	width: 250px;
+	float: left;
+	text-align: center;
+}
+#film h1{
+	font-size: 14px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+#film h1 em{
+	color: #999;
+}
+#film .detail_intro {
+	width: 490px;
+	float: left;
+	padding-left: 10px;
+}
+#film .detail_intro td a {
+	text-decoration: underline;
+}
+#film .detail_intro tr {
+	background-image: url("xddd.gif")/*tpa=http://www.poxiao.com/template/default/images/xddd.gif*/;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	line-height: 25px;
+	height: 25px;
+	word-wrap:break-word; overflow:hidden;
+}
+#film .detail_intro .gkfj {
+	width: 420px;
+}
+#film .detail_intro .gkfj a {
+	padding-right: 10px;
+	float: left;
+	word-wrap:break-word;
+	overflow:hidden;
+	height: 25px;
+}
+#film .detail_intro .gkfj a:hover{
+	text-decoration: underline;
+}
+#film .detail_intro .gkfj a:visited {
+	color: #CCC;
+}
+#ziy {
+	clear: both;
+	background-color: #F6F6F6;
+	margin-right: 10px;
+}
+#ziy input {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#ziy tr {
+	height: 35px;
+	line-height: 35px;
+}
+.resourcestop {
+	background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	background-repeat: no-repeat;
+	background-position: 0px -70px;
+	padding-left: 50px;
+	padding-top: 10px;
+	height: 32px;
+}
+.resourcesmain {
+	padding: 10px;
+}
+.resourcesmain .sebc {
+}
+.resourcesmain .sebc2 {
+	background-color: #FFFBF7;
+}
+.resourcesmain .download-tips {
+	text-align: center;
+}
+.filmcontents {
+	margin-top: 20px;
+	margin-right: 10px;
+	clear: both;
+}
+.filmcontents1 li {
+                width: 80px;
+                float: left;
+                margin-bottom: 6px;
+}
+.shikan {
+	padding-left: 10px;
+	text-decoration: underline;
+}
+.filmc-title, .xgpy-title {
+	background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	background-repeat: no-repeat;
+	background-position: 0px -70px;
+	padding-left: 50px;
+	padding-top: 10px;
+	height: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.filmcontents .inner_content {
+	word-break:break-all;overflow: hidden;width: 750px;
+}
+
+.xgpy {
+	background-image: url("sddd.gif")/*tpa=http://www.poxiao.com/template/default/images/sddd.gif*/;
+	background-repeat: repeat-y;
+	background-position: right;
+	width: 750px;
+	padding-right: 10px;
+	float: left;
+}
+.xgpy .content {
+}
+.xgpy li {
+	float: left;
+	text-align: center;
+	width: 130px;
+	padding-left: 15px;word-wrap: break-word;
+}
+.xgpy li img {
+	width: 120px;
+	padding: 5px;
+	border: 1px solid #CCC;
+}
+.xgpy li a:hover img {
+	background-color: #FFF5EB;
+	border: 1px solid #FFC68C;
+}
+.comments {
+	float: left;
+	width: 750px;
+}
+.comments .commentItem {
+	padding-bottom: 10px;
+	clear: both;
+}
+.comments .plyh {
+	text-align: right;
+	background-color: #F0F0F0;
+}
+.comments .mc {
+	float: left;
+}
+.comments .date {
+	padding-right: 20px; 
+}
+.comments .inner_content {
+	padding: 10px;
+}
+.comments .plyh a {
+}
+.comments .plyh {
+	padding-left: 10px;
+}
+.comments .pldeploy {
+	padding-left: 10px;
+}
+.comments .pldeploy a {
+	color: #333;
+	margin-right: 10px;
+}
+.gse2 {
+	background-color: #FFFBF7;
+	background-image: url("xddd.gif")/*tpa=http://www.poxiao.com/template/default/images/xddd.gif*/;
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top: 1px;
+}
+.sebc-contents .userReply {
+	border: 1px solid #CCC;
+	margin: 10px;
+	padding: 5px;
+	background-color: #FFF;
+}
+.dy-contents .userReply {
+	border: 1px solid #CCC;
+	margin: 10px;
+	padding: 5px;
+	background-color: #FFFBF7;
+}
+.comment_page {
+	background-color: #EFEFEF;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	height: 25px;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	float: right;
+}
+.comment_page span {
+	float: left;
+}
+.comment_page a, .comment_page .current {
+	height: 22px;
+	color: #FFF;
+	display: block;
+	background-color: #CECFCE;
+	line-height: 22px;
+	text-align: center;
+	margin-left: 10px;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.comment_page .current {
+	background-color: #D60000;
+}
+.topics_class_morecomment {
+	float: left;
+}
+.contentside {
+	width: 220px;
+	float: right;
+}
+.contentside h3 {
+	clear: both;
+}
+.movlist {
+	clear: both;
+}
+.movlist a{
+	height: 145px;
+	overflow: hidden;
+	width: 95px;
+	display: block;
+}
+.movlist img {
+	padding: 2px;
+	border: 1px solid #CCC;
+}
+.movlist li {
+	float: left;
+	width: 90px;
+	font-size: 12px;
+	padding: 9px;
+	position: relative;
+	line-height: 18px;
+	text-align: center;
+	height: 155px;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+.movlist .cs {
+	height: 20px;
+	width: 85px;
+	top: 113px;
+	left: 8px;
+}
+.movlist p {
+	color: #999;
+}
+.detail_pic {	background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	background-repeat: no-repeat;
+	background-position: -10px -126px;}
+#img_movie_250x350 {
+	width: 230px;
+	float: left;
+	padding-left: 5px;
+	padding-top: 5px;
+	height: 330px;
+}
+.detail_pic1 {background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	background-repeat: no-repeat;
+	background-position: -10px -126px;}
+	
+	
+/*分页*/
+#main {
+	float: right;
+	width: 750px;
+	clear: right;
+	background-image: url("sddd.gif")/*tpa=http://www.poxiao.com/template/default/images/sddd.gif*/;
+	background-repeat: repeat-y;
+	background-position: left;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.tjjsji img {
+	border: 1px solid #CCC;
+}
+.tjjsji {
+	float: left;
+	height: 310px;
+	width: 750px;
+	overflow: hidden;
+}
+.tjjsji a:hover img {
+	background-color: #FFF5EB;
+	border: 1px solid #FFC68C;
+}
+.tjjsji p {
+	text-align: left;
+	color: #999;
+	font-size: 12px;
+}
+.tjjsji li {
+	text-align: center;
+	float: left;
+	display: inline;
+}
+.tjjsji .large {
+}
+.tjjsji .large li {
+	width: 155px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+ 
+.tjjsji .large li img {
+	width: 150px;
+	padding: 5px;
+	height: 210px;
+}
+.tjjsji .small li {
+	width: 90px;
+	padding-right: 10px;
+	padding-left: 10px;
+	overflow: hidden;
+	height: 153px;
+}
+.tjjsji .small li img {
+	width: 90px;
+	padding: 2px;
+	height: 125px;
+}
+.sidel {
+	clear: left;
+	float: left;
+	width: 220px;
+}
+.sidel h2{
+	background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	height: 33px;
+	background-position: -480px -112px;
+	font-weight: normal;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 33px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	letter-spacing: 5px;
+	}
+.sidel .content{
+	line-height: 25px;
+	border: 1px solid #CCC;
+	width: 210px;
+	float: left;
+}
+.sidel .content dl{
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCC;
+	background-color: #F5F5F5;
+	padding-bottom: 10px;
+	width: 210px;
+	float: left;
+	padding-top: 5px;
+}
+.sidel .content dt{
+	padding-left: 10px;
+	color: #000;
+	font-weight: bolder;
+
+}
+.sidel .content dt a{
+	color: #C33;
+
+}
+.sidel .content dd{
+	color: #747474;
+	padding: 5px;
+	width: 200px;
+}
+.sidel .content dd a{
+	color: #C33;
+	float:left;
+	width: 42px;
+	height: 25px;
+	overflow: hidden;
+	text-align: left;
+	margin-left: 5px;
+	text-decoration: underline;
+}
+.sidel .current{
+	color: #999;
+	float: left;
+	width: 42px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.yp-list-box {
+	padding-top: 10px;
+	clear: both;
+}
+.sort-mode {
+	background-color: #FCFBF1;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #D40000;
+}
+.sort-mode dl {
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	line-height: 30px;
+}
+.sort-mode dt {
+	display:inline;padding-left: 20px;
+}
+.sort-mode dd {
+	display:inline;
+	
+}
+.sort-mode dd em{
+	font-weight: bold;
+	font-style: normal;
+	color: #999;
+}
+.sort-mode dd a{
+	text-decoration: underline;
+	margin-right: 10px;
+	color: #C33;
+}
+.yp-list-box .content {
+	padding-top: 10px;
+}
+.yp-list-box .content li {
+	width: 350px;
+	float: left;
+	overflow: visible;
+	padding-right: 20px;
+	height: 200px;
+}
+.yp-list-box li h3{
+	font-size: 14px;
+
+	line-height: 40px;
+}
+.yp-list-box li .des_span{
+	color: #3b97d3;
+	font-size: 12px;
+}
+.yp-list-box li h3 a{
+
+	color: #d40000;
+}
+.yp-list-box li h3 em{ margin:0 0 0 10px; font-family: Verdana, Arial, Helvetica, sans-serif; 
+color:#ff0000;}
+.yp-list-box li h3 span{ margin-left:5px; font-size:12px; color:#666; font-weight:normal}
+.yp-list-box .jjzl li {
+	width: auto;
+	height: 22px;
+	padding-left: 0px;
+	font-size: 12px;
+	background-image: url("xddd.gif")/*tpa=http://www.poxiao.com/template/default/images/xddd.gif*/;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	float: none;
+	line-height: 22px;
+	overflow: hidden;
+}
+.yp-list-box .jjzl {
+	width: 205px;
+	float: left;
+}
+.yp-list-box .gkpic {
+	height: 183px;
+	width: 133px;
+	background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	background-position: -273px -150px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+.yp-list-box .gkpic .cs {
+	left: 3px;
+	top: 155px;
+	width: 116px;
+}
+.sort-mode .content ul li strong {
+	padding-left: 10px;
+	line-height: 30px;
+}
+.sort-mode .content strong a {
+	color: #D40000;
+}
+.gkpic img {
+	width: 120px;
+	padding-top: 5px;
+	padding-left: 5px;
+	height: 170px;
+}
+
+.list-pager {
+	clear: both;
+	float: right;
+	background-color: #EFEFEF;
+	margin-right: 30px;
+	padding: 5px;
+}
+ 
+ 
+.list-pager span {
+	float: left;
+}
+.list-pager a,.list-pager .current {
+	height: 22px;
+	color: #FFF;
+	display: inline;
+	background-color: #CECFCE;
+	line-height: 22px;
+	text-align: center;
+	margin-left: 10px;
+	padding-right: 8px;
+	padding-left: 8px;
+	float: left;
+}
+.list-pager .current,.list-pager a:hover{
+	background-color: #D60000;
+	font-weight: bold;
+}
+
+
+.bfye{
+	background-color: #000;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	filter:alpha(opacity=80);       /* IE */
+	-moz-opacity:0.5;              /* Moz + FF */
+	opacity: 0.5;           /* 支持CSS3的浏览器（FF 1.5也支持）*/
+	height: 100%;
+}
+.play_box {
+	width: 100%;
+	background-color: #1E1E1E;
+	padding-top: 10px;
+}
+.play_left {
+	width: 115px;
+	height: 500px;
+	float: left;
+}
+.play_center {
+	float: left;
+	width: 760px;
+	background-color: #000;
+	position: relative;
+	overflow: hidden;
+}
+.play_right {
+
+	width: 220px;
+	float: left;
+}
+#player {
+	width: 760px;
+	height: 470px;
+	overflow: hidden;
+}
+#fj {
+	height: 200px;
+	width: 100%;
+	clear: both;
+	background-color: #111111;
+	color: #CCC;
+}
+#fj dl {
+	width: 990px;
+	height: 170px;
+	margin-top: 10px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+#fj dt {
+	width: 550px;
+	line-height: 25px;
+	height: 25px;
+	font-weight: bolder;
+	margin-left: auto;
+	margin-right: auto;
+}
+#fj dd {
+	width: 550px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: auto;
+	font-size: 12px;
+	height: 150px;
+}
+#fj dd .current {
+	font-weight: bolder;
+	color: #FFF;
+}
+#fj a {
+	color: #CCC;
+	padding-right: 10px;
+	float: left;
+	text-decoration: none;
+	word-wrap:break-word;
+	overflow:hidden;
+	height: 25px;
+}
+#fj a:hover {
+	text-decoration: underline;
+	color: #C00;
+}
+#fj lia:visited {
+	color: #CCC;
+}
+.bao {
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.bfye-title {
+	background-image: url("vpd.png")/*tpa=http://www.poxiao.com/template/default/images/vpd.png*/;
+	color: #CCC;
+	line-height: 26px;
+	width: 760px;
+	font-size: 12px;
+	height: 26px;
+}
+.bfye-title strong {
+	padding-left: 20px;
+}
+#playgg {
+	position: absolute;
+	top: 26px;
+	width: 550px;
+	height: 470px;
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+	left: 0px;
+	visibility: hidden;
+}
+#pplayer {
+	position: relative;
+	right: 5px;
+}
+/*搜索*/
+
+.result_tips {
+	background-color: #FCFBF1;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #D40000;
+	
+}
+.result_tips p{
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	line-height: 30px;
+	padding-left: 20px;
+}
+.searchlist .sidel{
+	 
+}
+.ypsstop{
+	background-color: #F5F5F5;
+	padding-left: 30px;
+	color: #C30;
+	width: 185px;
+}
+
+.ypsstop li {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	font-size: 13px;
+	line-height: 25px;
+	height: 25px;
+}
+.ypsstop li a {
+	color: #333;
+}
+.ypsstop li span {
+	color: #999;
+	font-size: 12px;
+	font-style: normal;
+	float: right;
+	padding-right: 10px;
+}
+.comment {
+	margin-top: 20px;
+	margin-right: 10px;
+	clear: both;
+}
+.comment h2 {
+	background-image: url("index.gif")/*tpa=http://www.poxiao.com/template/default/images/index.gif*/;
+	background-repeat: no-repeat;
+	background-position: 0px -70px;
+	padding-left: 50px;
+	padding-top: 10px;
+	height: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.lixian {
+	background:url("lixian.png")/*tpa=http://www.poxiao.com/template/default/images/lixian.png*/ no-repeat;       
+	filter:alpha(opacity=10);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;text-decoration: underline;
+}
+.xmp {
+	background:url("Xmp.png")/*tpa=http://www.poxiao.com/template/default/images/Xmp.png*/ no-repeat;       
+	filter:alpha(opacity=10);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;text-decoration: underline;
+}
+#yqlj {
+	width:950px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-color: #F6F6F6;
+	font-size: 12px;
+	clear: both;
+	height: 80px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+
+#yqlj li{
+	float: left;
+	width: 85px;
+}
+.container #film .detail_pic #bdshare {
+	height: 28px;
+	width: 250px;
+	float: left;
+	background-color: #FFF;
+	margin-top: 15px;
+}
+.XL_CLOUD_VOD_BUTTONyundianbo_btn_big,.XL_CLOUD_VOD_BUTTONyundianbo_btn_normal,.XL_CLOUD_VOD_BUTTONyundianb
+o_btn_small{cursor:pointer;background:url("yundianbo_button.png")/*tpa=http://www.poxiao.com/template/default/images/yundianbo_button.png*/ no-repeat !
+important;display:inline-block !important}
+.XL_CLOUD_VOD_BUTTONyundianbo_btn_big_sec,.XL_CLOUD_VOD_BUTTONyundianbo_btn_normal_sec,.XL_CLOUD_VOD_BUTTON
+yundianbo_btn_small_sec{cursor:pointer;background:url("yundianbo_button.png")/*tpa=http://www.poxiao.com/template/default/images/yundianbo_button.png*/ no-repeat !
+important;display:inline-block !important}
+
+.XL_CLOUD_VOD_BUTTONyundianbo_btn_big_sec{width:76px !important;height:31px !important;background-
+position:-2px -39px !important;}
+.XL_CLOUD_VOD_BUTTONyundianbo_btn_normal_sec{width:76px !important;height:23px !important;background-
+position:-85px -44px !important;}
+.XL_CLOUD_VOD_BUTTONyundianbo_btn_small_sec{width:58px !important;height:17px !important;background-
+position:-171px -46px !important;}
+
+.XL_CLOUD_VOD_BUTTONyundianbo_btn_big{width:76px !important;height:31px !important;background-position: -
+2px -2px!important;  }
+.XL_CLOUD_VOD_BUTTONyundianbo_btn_normal{width:70px !important;height:18px !important;background-position: 
+-165px -2px!important; }
+.XL_CLOUD_VOD_BUTTONyundianbo_btn_small{width:58px !important;height:17px !important;background-position:-
+171px -4px!important; }
+
+.starlist{height:26px; position:relative; width:130px; overflow:hidden; background:url("stars.gif")/*tpa=http://www.poxiao.com/template/default/images/stars.gif*/ 0 0 
+repeat-x; cursor:pointer}
+.starlist li{float:left;}
+.starlist li a {cursor: pointer;float: left;overflow: hidden;width: 26px;height: 26px;text-indent: -50px;}
+.starlist li a.is{background:url("stars.gif")/*tpa=http://www.poxiao.com/template/default/images/stars.gif*/ 0 -100px no-repeat;}
+.starlist li a.on{background:url("stars.gif")/*tpa=http://www.poxiao.com/template/default/images/stars.gif*/ 0 -50px no-repeat;}
+.starlist {float: left;width: 130px;height: 24px;overflow: hidden;margin-right: 10px;margin-top: 3px;}
+
+
+.col2 h3 {
+background-image: url("index-topbg.jpg")/*tpa=http://www.poxiao.com/template/default/images/index-topbg.jpg*/;
+width: 380px;
+height: 29px;
+background-position: -0px 0px;
+font-weight: normal;
+color: #FFF;
+font-size: 14px;
+letter-spacing: 5px;
+text-align: center;
+line-height: 29px;
+margin-top: 2px;
+margin-bottom: 2px;
+margin-left:16px;
+}
+.dlx-content li{margin-bottom:8px;width: 200px;}
+.col3 .content li img {
+padding-top: 6px;
+padding-right: 10px;
+padding-bottom: 2px;
+padding-left: 10px;
+}
+
+.text-left{
+float: left;
+width: 500px;
+}
+.text-right {
+float: right;
+
+width: 490px;
+}
+#coltext {
+	width: 990px;
+}
+#coltext .content{
+clear: both;
+width: 465px;
+
+}
+.coljd h2{
+width: 465px;
+}
+.coljd h2 a{
+*float: left;
+}
+#indextopleft h2 a{
+*float: left;
+}
+.coljd h2 span{
+	float:right;
+	clear: both;
+}
+#indextopleft h2 span{
+	float:right;
+	clear: both;
+}
+.clear{
+	clear: both;
+}
+.col2 {
+}
+#indextopleft{
+float: left;
+width: 570px;
+}
+#indexpic{
+	float: right;
+	width: 390px;
+}
+.dlx-content ul{
+	width:390px;
+}
+.dlx-content li{
+	float: left;
+	width:130px;
+	padding: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	height: 170px;
+	overflow: hidden;
+}
+.indextop{
+	width:990px;
+}
+.dlx-content li .cs {
+top: 130px;
+left: 6px;
+width: 112px;
+font-weight: normal;
+}
